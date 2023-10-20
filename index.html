@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Diablo 2</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <div class="background">
+        <img class="title" src="/img/diablo2-title.gif" alt="Tytuł gry, z której będzie to quiz">
+
+        <div class="app-start">
+            <h2>Witaj Nefalemie!</h2>
+            <p>Trafiłeś do miejsca, gdzie możesz sprawdzić swoją wiedzę na temat kultowej gry <span>Diablo II</span></p>
+            <p>Przedstaw się, wpisując swoje imię i kliknij przycisk <strong>'START'</strong> ,aby rozpocząć</p>
+            <input type="text" class="user-name">
+            <button class="btn start-btn">
+                <p class="btn-text">start</p>
+                <img class="btn-border" src="/img/border-diablo-trans.png" alt="Ramka na przycisk">
+                <div class="btn-body"></div>
+        </div>
+        </button>
+
+        <div class="app-body">
+            <div class="question-area">
+                <p class="question">Pytanie z Quizu?</p>
+                <div class="answers">
+                    <button class="answer">odpowiedz 1</button>
+                    <button class="answer">odpowiedz 2</button>
+                    <button class="answer">odpowiedz 3</button>
+                    <button class="answer">odpowiedz 4</button>
+                </div>
+
+                <button disabled class="btn next-btn">
+                    <p class="btn-text">dalej</p>
+                    <img class="btn-border" src="/img/border-diablo-trans.png" alt="Ramka na przycisk">
+                    <div class="btn-body"></div>
+
+                </button>
+            </div>
+        </div>
+
+        <div class="app-end">
+            <h2>Dotarłeś do końca Quizu!</h2>
+            <p class="ending-result"></p>
+            <p class="ending-text"></p>
+            <img class="ending-img" src=""
+                alt="Potwór z gry Diablo 2">
+
+            <button class="btn again-btn">
+                <p class="btn-text">jeszcze raz</p>
+                <img class="btn-border" src="/img/border-diablo-trans.png" alt="Ramka na przycisk">
+                <div class="btn-body"></div>
+
+            </button>
+        </div>
+
+
+        <script src="/js/script.js"></script>
+</body>
+
+</html>
