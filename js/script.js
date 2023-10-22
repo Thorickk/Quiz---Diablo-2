@@ -213,7 +213,7 @@ const showResult = () => {
 const playAgain = () => {
 	endingPage.style.display = 'none'
 	startingPage.style.display = 'block'
-	background.style.backgroundImage = "url('/img/bg-diabloII.jpg')"
+	background.style.backgroundImage = "url('../img/bg-diabloII.jpg')"
 }
 
 startBtn.addEventListener('click', checkInput)
