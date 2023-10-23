@@ -192,7 +192,7 @@ const showResult = () => {
 
 	questionPage.style.display = 'none'
 	endingPage.style.display = 'block'
-	background.style.backgroundImage = "url('../img/diablo-2-end.jpg')"
+	background.style.backgroundImage = "url('img/diablo-2-end.jpg')"
 
 	endResult.textContent = `Zdobyłeś ${userResult} / ${questions.length} punktów !`;
 	endText.textContent = `${userName}, Twój poziom to:`
@@ -213,7 +213,7 @@ const showResult = () => {
 const playAgain = () => {
 	endingPage.style.display = 'none'
 	startingPage.style.display = 'block'
-	background.style.backgroundImage = "url('../img/bg-diabloII.jpg')"
+	background.style.backgroundImage = "url('img/bg-diabloII.jpg')"
 }
 
 startBtn.addEventListener('click', checkInput)
